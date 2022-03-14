@@ -223,7 +223,7 @@ class Footer extends Component {
                           type="submit"
                           id="submitsubscribefooter"
                           name="send"
-                          className="btn btn-primary"
+                          className="btn buy-button"
                           readOnly
                           value="Subscribe"
                         />
