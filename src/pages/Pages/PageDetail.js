@@ -31,7 +31,7 @@ const PageDetail = () => {
       document.body.classList = "";
       document.getElementById("top-menu").classList.add("nav-light");
       document.getElementById("buyButton").className = "btn btn-light";
-    },1000)
+    },0)
     window.scrollTo(0, 0)
     window.addEventListener("scroll", scrollNavigation, true);
     return () => {
